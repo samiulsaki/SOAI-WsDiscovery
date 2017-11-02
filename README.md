@@ -11,7 +11,3 @@ java -jar –Dip=xx wsdiscovery-gui2-1.0-SNAPSHOT-jar-with-dependencies.jar
 5. Mac users can Publish the Palindrome service using the WsDeploy program attach to this repository. Right click on the project after importing it and click run. When asked for IP address input enter your IP address of the user interface and minimize the program. You can close the WsDeploy program anytime by opening console on IDE and hit return key.
 6. Right click on the ChowdhuryClient project and click run. The program will keep searching for the published service in the network using the port type search criteria of "{http://check.palindrome.com/}PalindromeCheck" in every 5 seconds until the published Palindrome service is found. 
 7. Insert the string of your choice in the text box to check if the string is a Palindrome. If the service get disconnected from the client you need to rerun the program again.
-
-
-
-
